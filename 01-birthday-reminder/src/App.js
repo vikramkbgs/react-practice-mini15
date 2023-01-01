@@ -6,7 +6,7 @@ function App() {
   return (
     <main>
       <section className='container'>
-        <h3>0 Birthdays today</h3>
+        <h3>{people.length} Birthdays today</h3>
         <List people={people}/>
         <button onClick={()=>setPeople([])}>clear me</button>
       </section>
